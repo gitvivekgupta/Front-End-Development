@@ -1,0 +1,140 @@
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: #95a0a1 ;
+    color:floralwhite;
+}
+
+
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-inverse {
+    background: #002b2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1e3b3f;
+}
+
+#foot {
+    background: #1e3b3f;
+    height: 250px;
+}
+
+#wrapper {
+    padding-left: 450px;
+    padding-top: 30px;
+}
+
+#one {
+    float: left;
+    width: 200px;
+}
+#two {
+    float: left;
+    width: 200px;
+}
+#three {
+    float: left;
+    width: 200px;
+}
+
+#onee {
+    float: left;
+    width: 380px;
+    height: 300px;
+    margin-right: 30px;
+}
+#twoo {
+    float: left;
+    width: 380px;
+    height: 300px;
+    margin-right: 30px;
+}
+#threee {
+    float: left;
+    width: 380px;
+    height: 300px;
+}
+
+#hori1 {
+ width:82%; 
+ text-align:center; 
+ border-bottom: 5px solid #bfbfbf; 
+ line-height:0.1em; 
+ font-size: 20px;
+ margin-left: 160px;
+  
+} 
+#hori1 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+#hori2 {
+ width:65%; 
+ text-align:center; 
+ border-bottom: 5px solid #bfbfbf; 
+ line-height:0.1em; 
+ font-size: 20px;
+ margin-left: 160px;
+  
+} 
+#hori2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+#content {
+    width: 1280px;
+    height: 500px;
+    margin-left: 460px;
+    position: absolute;
+    font-size: 15px;
+}
+
+
+.card {
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 230px;
+  margin-left: 1120px;
+  text-align: center;
+  font-family: arial;
+  position: absolute;
+
+}
+
+
+#tex {
+    text-align: left;
+    margin-left: 20px; 
+}
+
+p.a { 
+    word-spacing: 100px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: white;
+  background-color: lightblue;
+  width: 80%;
+  font-size: 18px;
+}
+
+#map {
+
+   width: 230px;
+   height: 100px;
+
+}

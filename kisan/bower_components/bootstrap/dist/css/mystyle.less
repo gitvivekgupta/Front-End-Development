@@ -1,0 +1,141 @@
+// Color variables (appears count calculates by raw css)
+@color0: #ffffff; // Appears 5 times
+@color1: #1e3b3f; // Appears 4 times
+@color2: #bfbfbf; // Appears 2 times
+
+// Width variables (appears count calculates by raw css)
+@width0: 1280px; // Appears 1 time
+@width1: 200px; // Appears 3 times
+@width2: 380px; // Appears 3 times
+@width3: 230px; // Appears 2 times
+@width4: 80%; // Appears 1 time
+@width5: 65%; // Appears 1 time
+@width6: 82%; // Appears 1 time
+
+// Height variables (appears count calculates by raw css)
+@height0: 100px; // Appears 1 time
+@height1: 500px; // Appears 1 time
+@height2: 300px; // Appears 3 times
+@height3: 250px; // Appears 1 time
+
+.jumbotron {
+	background: #95a0a1;
+	color:floralwhite;
+	margin:0px auto;
+	padding:70px 30px 70px 30px;
+}
+body {
+	padding:50px 0px 0px 0px;
+	z-index:0;
+}
+.navbar-inverse {
+	background: #002b2d;
+	.navbar-nav>.active>a {
+		background: @color1;
+		color: @color0;
+		&:hover {
+			background: @color1;
+			color: @color0;
+		}
+		&:focus {
+			background: @color1;
+			color: @color0;
+		}
+	}
+}
+#foot {
+	background: @color1;
+	height: @height3;
+}
+#wrapper {
+	padding-left: 450px;
+	padding-top: 30px;
+}
+#one {
+	float: left;
+	width: @width1;
+}
+#two {
+	float: left;
+	width: @width1;
+}
+#three {
+	float: left;
+	width: @width1;
+}
+#onee {
+	float: left;
+	height: @height2;
+	margin-right: 30px;
+	width: @width2;
+}
+#twoo {
+	float: left;
+	height: @height2;
+	margin-right: 30px;
+	width: @width2;
+}
+#threee {
+	float: left;
+	height: @height2;
+	width: @width2;
+}
+#hori1 {
+	border-bottom: 5px solid @color2;
+	font-size: 20px;
+	line-height:0.1em;
+	margin-left: 160px;
+	text-align:center;
+	width:@width6;
+	span {
+		background:@color0;
+		padding:0 10px;
+	}
+}
+#hori2 {
+	border-bottom: 5px solid @color2;
+	font-size: 20px;
+	line-height:0.1em;
+	margin-left: 160px;
+	text-align:center;
+	width:@width5;
+	span {
+		background:@color0;
+		padding:0 10px;
+	}
+}
+#content {
+	font-size: 15px;
+	height: @height1;
+	margin-left: 460px;
+	position: absolute;
+	width: @width0;
+}
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	font-family: arial;
+	margin-left: 1120px;
+	position: absolute;
+	text-align: center;
+	width: @width3;
+}
+#tex {
+	margin-left: 20px;
+	text-align: left;
+}
+p.a {
+	word-spacing: 100px;
+}
+button {
+	background-color: lightblue;
+	border: none;
+	color: white;
+	display: inline-block;
+	font-size: 18px;
+	outline: 0;
+	width: @width4;
+}
+#map {
+	height: @height0;
+	width: @width3;
+}
