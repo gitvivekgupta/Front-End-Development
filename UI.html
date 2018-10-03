@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://handsontable.com/static/css/main.css">
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="schema.js"></script>
+
+<script src="https://docs.handsontable.com/pro/bower_components/handsontable-pro/dist/handsontable.full.min.js"></script>
+
+</head>
+
+<body>
+
+<div id="hot"></div>
+
+<script>
+
+var hotElement = document.querySelector('#hot');
+var hotElementContainer = hotElement.parentNode;
+var hot = new Handsontable(hotElement, hotSettings);
+
+</script>
+
+</body>
+</html>
